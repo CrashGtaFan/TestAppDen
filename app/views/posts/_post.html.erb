@@ -1,0 +1,4 @@
+<p id="post-<%= post.id %>">
+  <%= post.text %>
+  <%= link_to 'Delete', post_path(post), method: :delete, remote: true %>
+</p>
